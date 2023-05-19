@@ -1,0 +1,1 @@
+export const LETTER_ARTICLES_TABLE_CELL_SPACING = -1

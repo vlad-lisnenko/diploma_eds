@@ -1,0 +1,45 @@
+[
+  {
+    "word": "АБІТУРІЄНТ",
+    "language": "ukrainian",
+    "morphologyEndings": "-а",
+    "morphologyCategory": "ч",
+    "definitions": [
+      {
+        "definition": "той, хто вступає до вищого або середнього спеціального навчального закладу",
+        "example": "заява абітурієнта",
+        "equivalentDefinitions": [
+          {
+            "language": "germany",
+            "definition": "Bewerber(in) um die Zulassung zu einem Studium."
+          }
+        ]
+      },
+      {
+        "definition": "той, хто вступає до вищого або середнього спеціального навчального закладу",
+        "example": "заява абітурієнта",
+        "equivalentDefinitions": [
+          {
+            "language": "germany",
+            "definition": "Bewerber(in) um die Zulassung zu einem Studium."
+          }
+        ]
+      }
+    ],
+    "important": true
+  },
+  {
+    "word": "Abiturient",
+    "language": "german",
+    "morphologyEndings": "(-en, -en)",
+    "morphologyCategory": "m",
+    "definitions": [
+      {
+        "definition": "випускниксередньої школи",
+        "example": "die Abiturienten feiern den Schulabschluss",
+        "equivalentDefinitions": []
+      }
+    ],
+    "important": true
+  }
+]

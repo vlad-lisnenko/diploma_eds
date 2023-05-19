@@ -1,0 +1,264 @@
+[
+  {
+    "words": [
+      {
+        "word": "АБІТУРІЄНТ",
+        "morphologyEndings": " -а, ч",
+        "morphologyCategory": null,
+        "definitions": [
+          {
+            "id": 3,
+            "definition": "той, хто вступає до вищого абосереднього спеціального навчальногозакладу",
+            "example": " заява абітурієнта",
+            "equivalentDefinitions": [
+              {
+                "id": 4,
+                "language": null,
+                "definition": " Bewerber(in) um die Zulassung zueinem Studium."
+              }
+            ]
+          }
+        ],
+        "important": true,
+        "language": "ukrainian"
+      },
+      {
+        "word": "Abiturient",
+        "morphologyEndings": " m (-en, -en)",
+        "morphologyCategory": null,
+        "definitions": [
+          {
+            "id": 6,
+            "definition": "випускник середньоїшколи",
+            "example": " die Abiturientenfeiern den Schulabschluss.",
+            "equivalentDefinitions": []
+          }
+        ],
+        "important": true,
+        "language": "ukrainian"
+      }
+    ]
+  },
+  {
+    "words": [
+      {
+        "word": "АБСОЛЮТН/ИЙ",
+        "morphologyEndings": " -а, -е",
+        "morphologyCategory": null,
+        "definitions": [
+          {
+            "id": 9,
+            "definition": " безвідносний, узятий поза зв'язком,без порівняння з чим-н.; безумовний",
+            "example": "абсолютна маячня",
+            "equivalentDefinitions": []
+          },
+          {
+            "id": 10,
+            "definition": " цілковитий, повний; необмежений;досконалий, довершений",
+            "example": " абсолютнамонархія",
+            "equivalentDefinitions": []
+          },
+          {
+            "id": 11,
+            "definition": " мат. про величину без знака плюсабо мінус",
+            "example": " абсолютна величина",
+            "equivalentDefinitions": []
+          },
+          {
+            "id": 12,
+            "definition": ". цілковито чистий, без домішок",
+            "example": "абсолютний спирт",
+            "equivalentDefinitions": [
+              {
+                "id": 13,
+                "language": null,
+                "definition": " rein."
+              }
+            ]
+          }
+        ],
+        "important": false,
+        "language": "ukrainian"
+      },
+      {
+        "word": "absolut",
+        "morphologyEndings": " adj",
+        "morphologyCategory": null,
+        "definitions": [
+          {
+            "id": 15,
+            "definition": "= абсолютний 1",
+            "example": " absoluteHöhe",
+            "equivalentDefinitions": []
+          },
+          {
+            "id": 16,
+            "definition": "= абсолютний 2",
+            "example": " absoluteMonarchie, absolutesHalteverbot",
+            "equivalentDefinitions": []
+          },
+          {
+            "id": 17,
+            "definition": "= абсолютний 3",
+            "example": " absoluterWert (einer Zahl).",
+            "equivalentDefinitions": []
+          }
+        ],
+        "important": false,
+        "language": "ukrainian"
+      }
+    ]
+  },
+  {
+    "words": [
+      {
+        "word": "АБСУРД",
+        "morphologyEndings": " -а, ч",
+        "morphologyCategory": null,
+        "definitions": [
+          {
+            "id": 20,
+            "definition": "безглуздя, нісенітниця, те щозаперечує здоровому глузду",
+            "example": " повнийаьсурд, театр абсурду, Це ж абсурд!",
+            "equivalentDefinitions": []
+          }
+        ],
+        "important": false,
+        "language": "ukrainian"
+      },
+      {
+        "word": "Absurdum",
+        "morphologyEndings": " n (-s, Absurda)",
+        "morphologyCategory": null,
+        "definitions": [
+          {
+            "id": 22,
+            "definition": "заст. = абсурд",
+            "example": " Das ist einAbsurdum!",
+            "equivalentDefinitions": []
+          }
+        ],
+        "important": false,
+        "language": "ukrainian"
+      },
+      {
+        "word": "Absurdität",
+        "morphologyEndings": " f (=, -en)",
+        "morphologyCategory": null,
+        "definitions": [
+          {
+            "id": 24,
+            "definition": "= абсурд",
+            "example": " Das ist eine völligeAbsurdität!",
+            "equivalentDefinitions": []
+          }
+        ],
+        "important": false,
+        "language": "ukrainian"
+      }
+    ]
+  },
+  {
+    "words": [
+      {
+        "word": "АМАТОР",
+        "morphologyEndings": " -а, ч",
+        "morphologyCategory": null,
+        "definitions": [
+          {
+            "id": 27,
+            "definition": "людина, яка із задоволеннямзаймається чим-н. (музикою, технікоютощо), не маючи фахової підготовки,любитель",
+            "example": " вважати себе аматором уживописі, цю незграбну працю зробилиаматори.",
+            "equivalentDefinitions": []
+          }
+        ],
+        "important": false,
+        "language": "ukrainian"
+      },
+      {
+        "word": "Amateur",
+        "morphologyEndings": " m (-s, -e)",
+        "morphologyCategory": null,
+        "definitions": [
+          {
+            "id": 29,
+            "definition": " = аматор",
+            "example": " als Dirigent einAmateur sein, die Arbeiteines Amateurs",
+            "equivalentDefinitions": []
+          },
+          {
+            "id": 30,
+            "definition": ". спорт. любитель",
+            "example": " ImSpitzensport gibt es keineAmateure mehr, nur mehrProfis <Profisportler>.",
+            "equivalentDefinitions": []
+          }
+        ],
+        "important": false,
+        "language": "ukrainian"
+      }
+    ]
+  },
+  {
+    "words": [
+      {
+        "word": "АНТИКВАР",
+        "morphologyEndings": " -а, ч",
+        "morphologyCategory": null,
+        "definitions": [
+          {
+            "id": 33,
+            "definition": " продавець старовинних картин,книжок та інших цінних предметів",
+            "example": "купити крісло у антиквара",
+            "equivalentDefinitions": [
+              {
+                "id": 34,
+                "language": null,
+                "definition": " а ткж  Antiquitätenhändler(in)"
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "definition": ". людина, яка любить збиратистаровинні речі",
+            "example": " колекція антиквара",
+            "equivalentDefinitions": [
+              {
+                "id": 36,
+                "language": null,
+                "definition": " Antiquitätenkenner(in)"
+              },
+              {
+                "id": 37,
+                "language": null,
+                "definition": "Antiquitätensammler(in)."
+              }
+            ]
+          }
+        ],
+        "important": false,
+        "language": "ukrainian"
+      },
+      {
+        "word": "Antiquar",
+        "morphologyEndings": " m (-s, -e)",
+        "morphologyCategory": null,
+        "definitions": [
+          {
+            "id": 39,
+            "definition": "= антиквар ",
+            "example": null,
+            "equivalentDefinitions": []
+          },
+          {
+            "id": 40,
+            "definition": "> букініст",
+            "example": "ein Buch bei einem Antiquarschätzen lassen.",
+            "equivalentDefinitions": []
+          }
+        ],
+        "important": false,
+        "language": "ukrainian"
+      }
+    ]
+  }
+]

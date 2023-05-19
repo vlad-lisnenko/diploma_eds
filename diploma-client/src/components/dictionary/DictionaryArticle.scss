@@ -1,0 +1,14 @@
+@import "src/variables";
+
+.dictionary-article {
+  display: flex;
+  &__second-word {
+    display: flex;
+    position: relative;
+    left: -$borderWidth;
+  }
+
+  &__width {
+    width: 100%;
+  }
+}

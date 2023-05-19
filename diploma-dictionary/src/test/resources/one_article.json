@@ -1,0 +1,218 @@
+{
+  "firstLanguageWords": [
+    {
+      "wordsAndMorphologies": [
+        {
+          "word": "МАРК/А I",
+          "ngrams": "мар арк рка каi",
+          "morphologyEndings": "-и",
+          "morphologyCategory": "ж",
+          "falseParallel": false
+        }
+      ],
+      "definitions": [
+        {
+          "definition": "знак оплати поштових, гербових і т. ін. зборів у вигляді маленького чотирикутного папірця з зазначеною на ньому ціною та певним зображенням",
+          "example": "наклеїти марку на конверт",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": false,
+          "equivalentDefinitions": [
+            {
+              "precedingComment": "а ткж",
+              "definition": "Briefmarke"
+            }
+          ]
+        },
+        {
+          "definition": "знак, клеймо на виробах, товарах із зазначенням місця їх виготовлення, якості тощо",
+          "example": "фабрична марка",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": false,
+          "equivalentDefinitions": []
+        },
+        {
+          "definition": "сорт, тип виробу, ґатунок товару",
+          "example": "відомі марки сигарет",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": false,
+          "equivalentDefinitions": []
+        }
+      ]
+    },
+    {
+      "wordsAndMorphologies": [
+        {
+          "word": "МАРК/АII",
+          "ngrams": "мар арк рка каi аii",
+          "morphologyEndings": "-и",
+          "morphologyCategory": "ж",
+          "falseParallel": false
+        }
+      ],
+      "definitions": [
+        {
+          "definition": "у Німеччині та Фінляндії – грошова одиниця, що дорівнює відповідно 100 пфенігам і 100 пенні",
+          "example": "розплачуватися марками",
+          "stylisticMarker": "іст.",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": false,
+          "equivalentDefinitions": []
+        },
+        {
+          "definition": "одиниця ваги срібних та золотих монет у середньовічній Західній Європі, що приблизно дорівнювала 249 грамів",
+          "example": "даний продукт важить дві марки",
+          "stylisticMarker": "іст.",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": false,
+          "equivalentDefinitions": []
+        }
+      ]
+    }
+  ],
+  "mainFirstLanguageWord": "МАРК/А I",
+  "otherLanguageWords": [
+    {
+      "wordsAndMorphologies": [
+        {
+          "word": "Marke I",
+          "ngrams": "mar ark rke kei",
+          "morphologyEndings": "=, -n",
+          "morphologyCategory": "f",
+          "falseParallel": false
+        }
+      ],
+      "definitions": [
+        {
+          "definition": "марка I, 1",
+          "example": "Die Marke auf das Kuvert kleben",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": true,
+          "equivalentDefinitions": []
+        },
+        {
+          "definition": "талон, жетон, номер",
+          "example": "Lebensmittelmarken ausgeben",
+          "idiosyncraticMeaning": true,
+          "equalMeaning": false,
+          "equivalentDefinitions": []
+        },
+        {
+          "definition": "марка I, 2",
+          "example": "Herstellermarke, Markenzeichen",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": true,
+          "equivalentDefinitions": []
+        },
+        {
+          "definition": "марка І, 3",
+          "example": "eine bekannte Marke",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": true,
+          "equivalentDefinitions": []
+        }
+      ]
+    },
+    {
+      "wordsAndMorphologies": [
+        {
+          "word": "Marke II",
+          "ngrams": "mar ark rke kei eii",
+          "morphologyEndings": "=, -n",
+          "morphologyCategory": "f",
+          "falseParallel": true
+        }
+      ],
+      "definitions": [
+        {
+          "definition": "відмітка, позначка",
+          "example": "eine gute Marke erzielen",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": false,
+          "equivalentDefinitions": []
+        }
+      ]
+    },
+    {
+      "wordsAndMorphologies": [
+        {
+          "word": "Mark I",
+          "ngrams": "mar ark rki",
+          "morphologyEndings": "=, =",
+          "morphologyCategory": "f",
+          "falseParallel": false
+        }
+      ],
+      "definitions": [
+        {
+          "definition": "марка II, 1",
+          "example": "die deutsche Mark",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": true,
+          "equivalentDefinitions": []
+        },
+        {
+          "definition": "марка II, 2",
+          "example": "Die Kölner Mark gab es seit dem 11. Jahrhundert",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": true,
+          "equivalentDefinitions": []
+        }
+      ]
+    },
+    {
+      "wordsAndMorphologies": [
+        {
+          "word": "Mark II",
+          "ngrams": "mar ark rki kii",
+          "morphologyEndings": "-s",
+          "morphologyCategory": "n",
+          "falseParallel": true
+        }
+      ],
+      "definitions": [
+        {
+          "definition": "кістковий мозок, спинний мозок; внутрішня тканина",
+          "example": "das Mark verletzen",
+          "stylisticMarker": "мед.",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": false,
+          "equivalentDefinitions": []
+        },
+        {
+          "definition": "пюре (фруктове)",
+          "example": "Fruchtmark verwenden",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": false,
+          "equivalentDefinitions": []
+        }
+      ]
+    },
+    {
+      "wordsAndMorphologies": [
+        {
+          "word": "Mark III",
+          "ngrams": "mar ark rki kii iii",
+          "morphologyEndings": "-, -en",
+          "morphologyCategory": "f",
+          "falseParallel": true
+        }
+      ],
+      "definitions": [
+        {
+          "definition": "кордон, межа",
+          "example": "Dorfmark, Feldmark",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": false,
+          "equivalentDefinitions": []
+        },
+        {
+          "definition": "маркграфство; прикордонний адміністративний округ",
+          "example": "die Mark Brandenburg",
+          "idiosyncraticMeaning": false,
+          "equalMeaning": false,
+          "equivalentDefinitions": []
+        }
+      ]
+    }
+  ]
+}

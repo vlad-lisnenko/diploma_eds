@@ -1,0 +1,94 @@
+.word-fields {
+  display: flex;
+  flex-flow: column;
+
+  &__input {
+    padding: 0 0.7em;
+    width: 50%;
+  }
+
+  &__language-label {
+    font-size: 14pt;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 1em 0;
+    font-weight: bold;
+  }
+
+  &__definitions-label {
+    font-size: 12pt;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 1em 0;
+    font-weight: bold;
+  }
+
+  &__definitions {
+    margin: 1em 0 1em 0;
+
+    &__input {
+      width: 18em;
+    }
+  }
+
+  &__label {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    text-align: right;
+    align-items: flex-end;
+
+    &-center {
+      @extend .word-fields__label;
+      align-items: center;
+    }
+  }
+
+  &__equal-definition {
+    display: flex;
+
+    &__label {
+      display: flex;
+      justify-content: flex-end;
+      flex: 1;
+    }
+
+    &__checkbox {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__add-more {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__flex {
+    display: flex;
+    &-center {
+      @extend .word-fields__flex;
+      justify-content: center;
+    }
+  }
+
+  &__multiline-label {
+    padding: 1em 0 0 0;
+  }
+
+  &__multiline-input {
+    padding: 0 0.7em;
+  }
+}
+
+.flex {
+  flex: 1
+}
+
+.row {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}

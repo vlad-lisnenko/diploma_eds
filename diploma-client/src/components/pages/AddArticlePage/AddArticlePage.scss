@@ -1,0 +1,15 @@
+.add-form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  &__false-parallel {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+  }
+
+  &__words-form {
+    display: flex;
+  }
+}

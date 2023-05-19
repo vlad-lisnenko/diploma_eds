@@ -1,0 +1,35 @@
+@import "src/variables";
+
+.dictionary-page {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+
+  &__controls {
+    margin: $tenPixelEm;
+    display: flex;
+    &__input {
+      margin: $fivePixelEm;
+    }
+  }
+
+  &__dictionary-article {
+    width: 100%;
+    margin: $tenPixelEm;
+  }
+
+  &__link {
+    color: black;
+    font-size: 16pt;
+  }
+
+  &__arrow {
+    width: 3em;
+  }
+
+  &__right-arrow {
+    @extend .dictionary-page__arrow;
+    transform: rotate(180deg);
+  }
+}

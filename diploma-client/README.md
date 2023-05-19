@@ -1,0 +1,1 @@
+To run application use `npm run start` or `yarn start` in case of export error during start try `npm audit fix --force`. For building optimized production release: `npm run build` or `yarn build`.

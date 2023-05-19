@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  rabbit-mq:
+    container_name: rabbitmq
+    image: rabbitmq
+    ports:
+      - 5672:5672
+  rabbit-mq-admin:
+    image: rabbitmq:3-management
+    ports:
+      - 15672:15672

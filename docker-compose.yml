@@ -1,0 +1,105 @@
+version: "3"
+services:
+
+ mongo:
+  image: mongo:5.0.3
+  container_name: mongo
+  ports:
+   - "27017:27017"
+  volumes:
+   - mongo-data:/data/db
+
+ rabbit:
+  image: rabbitmq
+  container_name: rabbit
+  ports:
+  - "5672:5672"
+  volumes:
+  - rabbitmq-data:/var/lib/rabbitmq
+  depends_on:
+   - mongo
+
+ service-registry:
+  build:
+   context: ./diploma-service-registry
+  container_name: service-registry
+  ports:
+   - "8761:8761"
+
+
+ api-gateway:
+  build:
+   context: ./diploma-api-gateway
+  container_name: api
+  environment:
+   - REGISTRY_HOST=service-registry
+   - REGISTRY_PORT=8761
+  ports:
+   - "8080:8080"
+
+
+ email-sender:
+  build:
+   context: ./diploma-email-sender
+  container_name: email-sender
+  environment:
+   - SPRING_RABBITMQ_HOST=rabbit
+   - SPRING_RABBITMQ_PORT=5672
+
+   - EMAIL_SENDER_MAIL=rabbit@142cee27f493
+   - EMAIL_SENDER_PASSWORD=123456
+   - MAIL_HOST=smtp.mailtrap.io
+   - MAIL_PORT=2525
+   - MAIL_TRANSPORT_PROTOCOL=smtp
+   - MAIL_SMTP_AUTH=true
+   - MAIL_SMTP_STARTTLS_ENABLE=true
+   - MAIL_DEBUG=false
+  depends_on:
+   - rabbit
+
+ user-service:
+  build:
+   context: ./diploma-user-service
+  container_name: user-service
+  environment:
+   - SPRING_DATA_MONGODB_HOST=mongo
+   - SPRING_DATA_MONGODB_PORT=27017
+
+   - REGISTRY_HOST=service-registry
+   - REGISTRY_PORT=8761
+
+   - SPRING_RABBITMQ_HOST=rabbit
+   - SPRING_RABBITMQ_PORT=5672
+
+   - ROOT-ADMINS=abc@mail.com,c@mail.com
+  ports:
+   - "8081:8081"
+
+
+ dictionary-parser:
+  build:
+   context: ./diploma-dictionary
+  container_name: dictionary-parser
+  environment:
+   - SPRING_DATA_MONGODB_HOST=mongo
+   - SPRING_DATA_MONGODB_PORT=27017
+
+   - REGISTRY_HOST=service-registry
+   - REGISTRY_PORT=8761
+  ports:
+   - "1111:1111"
+  depends_on:
+   - user-service
+
+ client:
+  build:
+   context: ./diploma-client/dockerimage
+  container_name: client
+  ports:
+   - "80:80"
+   - "443:443"
+
+volumes:
+ mongo-data:
+ rabbitmq-data:
+

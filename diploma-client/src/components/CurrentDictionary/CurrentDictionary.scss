@@ -1,0 +1,16 @@
+.flip-button {
+  cursor: pointer;
+  &__image {
+    @extend .flip-button;
+    height: 2.5em;
+    width: 2.5em;
+  }
+}
+
+.current-dictionary {
+  display: flex;
+  align-items: center;
+  &__language-dropdown {
+    margin: 0 0.5em;
+  }
+}
